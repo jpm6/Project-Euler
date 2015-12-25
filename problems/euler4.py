@@ -17,7 +17,7 @@ def palindrome(n):
             isPalindrome = False
     return isPalindrome
 
-while product > n / 2:
+while product > 800000:
     if x * (y - 1) > (x - 1) * y:
         y = y - 1
     else:
