@@ -5,7 +5,7 @@
 What is the smallest positive number that is evenly divisible by all of the
 numbers from 1 to 20?
 '''
-top = 2000
+top = 20
 bucket = 1
 
 for i in range(1,1 + top):
