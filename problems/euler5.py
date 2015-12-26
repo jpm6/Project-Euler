@@ -11,8 +11,10 @@ bucket = 1
 for i in range(1,1 + top):
     currentBucket = bucket
     multiple = 1
-    print i - 1, bucket
+
     while not currentBucket % i == 0:
         currentBucket = bucket * multiple
         multiple += 1
     bucket = currentBucket
+
+print bucket
